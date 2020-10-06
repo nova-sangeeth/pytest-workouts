@@ -38,8 +38,9 @@ def not_bad(s):
 # Given 2 strings, a and b, return a string of the form
 #  a-front + b-front + a-back + b-back
 def front_back(a, b):
-    # +++your code here+++
-    return
+    a_string = len(a) // 2 + (len(a) % 2)
+    b_string = len(b) // 2 + (len(b) % 2)
+    return a[:a_string] + b[:b_string] + a[a_string:] + b[b_string:]
 
 
 # Simple provided test() function used in main() to print
