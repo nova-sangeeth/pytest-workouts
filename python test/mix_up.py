@@ -10,4 +10,4 @@ def mix_up(a, b):
 
 
 # print(mix_up(a, b))
-print(mix_up("mix", "pod"))
+print(mix_up("dog", "dinner"))
