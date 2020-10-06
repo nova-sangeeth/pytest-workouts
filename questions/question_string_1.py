@@ -22,9 +22,9 @@
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
     if count >= 10:
-        print("Number of donuts: many")
+        return "Number of donuts:" + str(count)
     else:
-        print("Number of donuts: " + str(count))
+        return "Number of donuts: many"
 
 
 # B. both_ends
@@ -66,7 +66,7 @@ def fix_start(s):
 def mix_up(a, b):
     new_a = a[:2] + b[2:]
     new_b = b[:2] + a[2:]
-    return new_a + " " + new_b
+    return new_b + " " + new_a
 
 
 # Provided simple test() function used in main() to print
