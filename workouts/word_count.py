@@ -32,7 +32,7 @@ filename = "/home/nova/webdev-lessons/python-test/workouts/file..txt"
 
 
 def build_dict(filename):
-    f = open(filename, "rU")
+    f = open(filename, "r+")
     words = f.read().split()
     count = {}
     for word in words:
