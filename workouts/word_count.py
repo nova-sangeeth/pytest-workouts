@@ -28,10 +28,12 @@ def sort_value(item):
     return item[-1]
 
 
+# Add the whole path to the file.
 filename = "/home/nova/webdev-lessons/python-test/workouts/file..txt"
 
 
 def build_dict(filename):
+    # using r+ instead of rU read and write.
     f = open(filename, "r+")
     words = f.read().split()
     count = {}
