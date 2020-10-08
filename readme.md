@@ -42,14 +42,14 @@ Docker commands
 Run the following commands to start the docker container
 
 docker --version (Optional)
-docker ps
+docker ps -> To Check the running containers.
 docker-compose build frontend  -d
 docker-compose build backend   -d
 docker-compose up -d
 docker-compose down
 
 
-Command to check the logs:
+Docker Command to check the logs:
 docker-compose log -f
 
 Dev urls and credentials:
