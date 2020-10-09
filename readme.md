@@ -36,6 +36,14 @@ Step 7:
 Change Directory to ohr
 Perform git fetch and git pull to update the repository
 
+NOTE: change the username and email in the git config file 
+Commands to change the username and email.
+	git config --global user.name "FIRST_NAME LAST_NAME"
+	git config --global user.email "MY_NAME@example.com"
+
+To verify the Git config 
+	Command: cat .git/config 
+	
 Step 8:
 Docker commands
 ------------------------------------------------------------
