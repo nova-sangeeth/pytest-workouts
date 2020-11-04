@@ -1,7 +1,10 @@
 import re
 
-lines = ["sure: nova, prename: hello", "profession: software dev"]
+"""
+adding yo yo after each @ symbol using regular expressions.
+"""
+a = " nova@google.com, test main@abr@.com world main"
 
-for line in lines:
-    print(re.split(",* *\w*:", line)[1:])
+test = re.sub(r"([\w\.-]+)@([\w\.-]+)", r"\1@yo-yo-dyne.com", a)
 
+print(test)
