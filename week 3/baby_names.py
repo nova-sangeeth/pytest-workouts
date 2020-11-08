@@ -26,6 +26,7 @@ Suggested milestones for incremental development:
  -Build the [year, 'name rank', ... ] list and print it
  -Fix main() to use the extract_names list
 """
+filename = "/home/nova/webdev-lessons/python-test/week 3/baby1990.html"
 
 
 def extract_names(filename):
@@ -49,27 +50,29 @@ def extract_names(filename):
     return names
 
 
-def main():
-    # This command-line parsing code is provided.
-    # Make a list of command line arguments, omitting the [0] element
-    # which is the script itself.
-    args = sys.argv[1:]
+extract_names(filename)
 
-    if not args:
-        print("usage: [--summaryfile] file [file ...]")
-        sys.exit(1)
+# def main():
+#     # This command-line parsing code is provided.
+#     # Make a list of command line arguments, omitting the [0] element
+#     # which is the script itself.
+#     args = sys.argv[1:]
 
-    # Notice the summary flag and remove it from args if it is present.
-    summary = False
-    if args[0] == "--summaryfile":
-        summary = True
-        del args[0]
+#     if not args:
+#         print("usage: [--summaryfile] file [file ...]")
+#         sys.exit(1)
 
-    # +++your code here+++
-    # For each filename, get the names, then either print the text output
-    # or write it to a summary file
+#     # Notice the summary flag and remove it from args if it is present.
+#     summary = False
+#     if args[0] == "--summaryfile":
+#         summary = True
+#         del args[0]
+
+#     # +++your code here+++
+#     # For each filename, get the names, then either print the text output
+#     # or write it to a summary file
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 
