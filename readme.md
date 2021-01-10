@@ -36,15 +36,21 @@ Step 7:
 Change Directory to ohr
 Perform git fetch and git pull to update the repository
 
-NOTE: change the username and email in the git config file 
+NOTE: Change the username and email in the git config file 
 Commands to change the username and email.
 	git config --global user.name "FIRST_NAME LAST_NAME"
 	git config --global user.email "MY_NAME@example.com"
 
 To verify the Git config 
-	Command: cat .git/config 
+	Command: cat .git/config
+Step: 8
+NOTE: Add the below Three lines in the .bashrc file in the cloud instance which is used to develop
+export DOMAIN=dev.screel.in(If the dev environment is in a local computer then the first config is not required)
+export SEED_DATA=app_data_export.sql
+export REFRESH_SCHEMA=YES
+
 	
-Step 8:
+Step 9:
 Docker commands
 ------------------------------------------------------------
 Run the following commands to start the docker container
@@ -62,8 +68,8 @@ docker-compose log -f
 
 Dev urls and credentials:
 
-url: To webbased code editor. http://code.dev.screel.in [password:ohr]
+url: To webbased code editor. http://code.dev.screel.in [password: ohr]
 url: To Dev server. http://code.dev.screel.in 
-url to the admin tool: http://config.dev.screel.in [username: admin; password:ohr]
-url to see the openapi swagger ui: "http://dev.screel.in/docs"
+url to the admin tool: http://config.dev.screel.in [username: admin; password:Tfohr321$]
+url to see the openapi swagger ui: "http://dev.screel.in/docs" [username: admin@ohr.screel.in; password:Tfohr321$]
 
