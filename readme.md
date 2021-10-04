@@ -70,6 +70,6 @@ Dev urls and credentials:
 
 url: To webbased code editor. http://code.dev.screel.in [password: ohr]
 url: To Dev server. http://code.dev.screel.in 
-url to the admin tool: http://config.dev.screel.in [username: admin; password:Tfohr321$]
-url to see the openapi swagger ui: "http://dev.screel.in/docs" [username: admin@ohr.screel.in; password:Tfohr321$]
+url to the admin tool: http://config.dev.screel.in [username: admin; password:$]
+url to see the openapi swagger ui: "http://dev.screel.in/docs" [username: ; password:$]
 
