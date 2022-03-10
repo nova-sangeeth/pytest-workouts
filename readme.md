@@ -18,10 +18,10 @@ location: "C:\Windows\System32\drivers\etc\hosts"(OPEN AND EDIT AS AN ADMINISTRA
 Step 4:
 Add the necessary IP given by the admin 
  eg: 
-    139.59.42.248   dev.screel.in
-	139.59.42.248   code.dev.screel.in
-   	139.59.42.248   traefik.dev.screel.in
-	139.59.42.248   config.dev.screel.in
+    12.345.67.890   dev.screel.in
+	12.345.67.890   code.dev.screel.in
+   	12.345.67.890   traefik.dev.screel.in
+	12.345.67.890   config.dev.screel.in
  
 
 Step 5:
