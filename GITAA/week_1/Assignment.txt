@@ -1,0 +1,169 @@
+1.  Which of the following is an assignment operator in Python?
+
+Options:
+    ==
+    >>>
+    ===
+    =   -
+
+2.  What will be the output after the following statements ? 
+
+x=9 
+y=8 
+print(x==y)
+
+Options:
+    x = 8 and y = 8
+    y = 9 and x = 8
+    False -
+    True
+
+3.  Which of the folowinf is not allowed as a part of a valid variable name ?
+
+Options:
+    Underscore -
+    Characters
+    Numbers
+    Space
+
+4. Which of the following is a not a valid Python data type ?
+
+Options: 
+    Integer
+    String
+    Boolean
+    Characters -
+
+5. Which of the following conversion result in an error ?
+
+Options:
+    float(10.8)
+    float(10)
+    int('10.8') -
+    int(10)
+
+6. The founder of Python is
+
+Options:
+    Guido Van Rossum -
+
+7. Python command used to calculate 3 to the power of 5
+
+Options:
+    3.exp(5)
+    3*5
+    3**5 - 
+    3^5
+
+8. The command used to clear only the console in Spyder is/
+Options:    
+    %reset
+    reset
+    remove
+    %clear - 
+
+9. The operators ‘in’ & ‘not in’ are _ ? 
+
+Options:
+    Unary Operators
+    Membership Operators -
+    Comparison Operators 
+    Identity Operators 
+
+
+10. The values of variables 'p' and 'q' are 5 and 3 respectively. What is the value of ‘p’ after running the code below?
+
+ p/=q
+Options:
+    1.67 -
+    8.00
+    2.00
+    1.00
+
+11. What will be the output after the following statements?
+
+x=45
+y=50
+z=y if (x % 2==0) else x
+print(z) 
+ 
+
+Options:
+    False
+    50
+    True
+    45 -
+
+12. Which of the following is not a valid assignment operator ?
+
+Options:
+    **=
+    //=
+    +=
+    %%= - 
+
+13. What is the datatype of the output for the function input() ?
+
+Options:
+    int
+    float
+    boolean
+    string - 
+
+14. Which of the following is not a valid relational operator ?
+
+Options:
+    %= -
+    ==
+    !=
+    >=
+
+15. In the print function the argument that is used to separate multiple outputs is:-
+
+Options:
+    file
+    sep - 
+    end
+    None of the above
+
+
+16. The function ord():
+
+Options:
+    Returns an integer representing unicode code point for the given unicode character - 
+    Converts an integer number (of any size) to a lowercase hexadecimal string
+    Converts an integer number (of any size) to an octal string
+    None of the above
+
+17. Python supports which of the following operators?
+
+Options:
+    Bitwise
+    Logical
+    Assignment
+    All of the above
+
+18. Which of the following function is used to read data from the keyboard?
+
+Options:
+    str()
+    function()  
+    print() 
+    input()  - 
+
+19. Which of the following is not a valid logical operator ?
+
+Options:
+    not
+    or
+    and
+    while - 
+
+
+20. Which of the following is/are a valid bitwise operator(s) ?
+
+Options:
+    &
+    ~
+    ^
+    All of the above - 
